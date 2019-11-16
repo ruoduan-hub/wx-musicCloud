@@ -14,7 +14,6 @@ Component({
       this.setData({
         _count: this._tranNumber(count, 2)
       })
-      this.foo()
     }
   },
   /**
@@ -38,9 +37,5 @@ Component({
         return count
       }
     },
-    async foo () {
-      await console.log('foo')
-    }
-
   },
 })
